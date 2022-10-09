@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiro website com HTML</title>
+</head>
+<body>
+    <h1 id="Inicio">Meu primeiro Blog</h1>
+    <hr>
+    <h2>Indice</h2>
+    <ul>
+        <li><a href="#Clie-Serv">Client x Server</a></li>
+        <li><a href="#Clie-side">Client-side</a></li>
+        <li><a href="#Serv-side">Server-side</a></li>
+    </ul>
+
+    <h2 id="Clie-Serv">Client x Server</h2> <small><a href="#Inicio">(Voltar)</a></small>
+    <p>O modelo cliente-servidor (em inglês client/server model), em computação, é uma estrutura de aplicação distribuída que distribui as tarefas e cargas de trabalho entre os fornecedores de um recurso ou serviço, designados como servidores, e os requerentes dos serviços, designados como clientes.
+
+        Geralmente os clientes e servidores comunicam através de uma rede de computadores em computadores distintos, mas tanto o cliente quanto o servidor podem residir no mesmo computador.
+        
+        Um servidor é um host que está executando um ou mais serviços ou programas que compartilham recursos com os clientes. Um cliente não compartilha qualquer de seus recursos, mas solicita um conteúdo ou função do servidor. Os clientes iniciam sessões de comunicação com os servidores que aguardam requisições de entrada.
+    
+        A característica do modelo cliente-servidor, descreve a relação de programas numa aplicação. O componente de servidor fornece uma função ou serviço a um ou mais clientes, que iniciam os pedidos de serviço.
+
+        Funcionalidades como a troca de e-mail, acesso à internet ou acesso a um banco de dados, são construídos com base no modelo cliente-servidor. Por exemplo, um navegador web é um programa cliente, em execução no computador do usuário, que acede às informações armazenadas num servidor web na internet. Usuários de serviços bancários, acedendo do seu computador, usam um cliente web para enviar uma solicitação para um servidor web num banco. Esse programa pode, por sua vez, encaminhar o pedido para o seu próprio programa de banco de dados do cliente que envia uma solicitação para um servidor de banco de dados noutro computador do banco para recuperar as informações da conta. O saldo é devolvido ao cliente de banco de dados do banco, que por sua vez, serve de volta ao cliente navegador exibindo os resultados para o usuário.
+        
+        O modelo cliente-servidor, tornou-se uma das ideias centrais de computação de rede. Muitos aplicativos de negócios, escritos hoje, utilizam o modelo cliente-servidor. O termo também tem sido utilizado para distinguir a computação distribuída por computadores dispersos da "computação" monolítica centralizada em mainframe.
+        
+        Cada instância de software do cliente pode enviar requisições a vários servidores. Por sua vez, os servidores podem aceitar esses pedidos, processá-los e retornar as informações solicitadas para o cliente. Embora este conceito possa ser aplicado por uma variedade de razões e para diversos tipos de aplicações, a arquitetura permanece fundamentalmente a mesma.</p>
+         
+    
+
+    <h2 id="Clie-side">Client-side</h2><small><a href="#Inicio">(Voltar)</a></small>
+    <p>As linguagens client-side são linguagens onde apenas o seu <strong><u>NAVEGADOR</u></strong> vai entender. Quem vai processar essa linguagem não é o servidor, mas o seu browser <strong>(Chrome, IE, Firefox, etc...).</strong> Significa "lado do cliente", ou seja, aplicações que rodam no computador do usuário sem necessidade de processamento de seu servidor (ou host) para efetuar determinada tarefa.
+
+        Basicamente, ao se falar de aplicações client-side na web, estamos falando de <strong>JavaScript, e AJAX</strong> (Asynchronous Javascript And XML).
+        
+        Existem vantagens e desvantagens ao utilizar o <strong>JavaScript e AJAX.</strong>
+        
+        A principal vantagem está na possibilidade de você economizar bandwidth (largura de banda), e dar ao usuário uma resposta mais rápida de sua aplicação por não haver processamento externo.
+        
+        Outra vantagem ao utilizar, agora o <strong>AJAX</strong>, seria o apelo visual de sua aplicação e rapidez de resposta. O que o <strong>AJAX</strong> faz é o processamento externo (server-side) parecendo ser interno (client-side). O usuário não percebe que houve um novo carregamento de página, pois ele busca informações no servidor e mostra rapidamente em um local específico da página através do <strong>JavaScript.</strong>
+        
+        A principal desvantagem do <strong>JavaScript</strong> atualmente é que o usuário pode desativá-lo em seu navegador. Se a sua aplicação basear-se exclusivamente em <strong>JavaScript</strong>, nesse caso, ela simplesmente não vai funcionar.</p>
+
+        <p><strong>Essas são linguagens do client-side: </strong></p>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>AJAX</li>
+        </ul>
+    
+    <h2 id="Serv-side">Server-side</h2><small><a href="#Inicio">(Voltar)</a></small>   
+    <p>As linguagens server-side são linguagens que o <strong>SERVIDOR</strong> (lado do servidor) entende, ou seja, aplicações que rodam no servidor. Isso quer dizer que você vai escrever um código onde o servidor vai processá-lo e então vai mandar para o seu navegador a resposta.
+
+        Por exemplo: se criarmos um script em linguagem back-end <strong>(PHP, Asp, Java, Ruby, etc)</strong> que apenas calcula a soma de 1 + 1, será o <strong>SERVIDOR</strong> (ou back) que calculará este resultado.
+        
+        Se fizermos esse cálculo em alguma linguagem front-end, como o JavaScript, quem calculará essa conta é o ,<strong>BROWSER</strong> do usuário. Por isso o termo client (ou front).
+        
+        </p> 
+
+        <p><strong>Essas são linguagens server-side: </strong></p>
+        <ul>
+            <li>PHP</li>
+            <li>ASP</li>
+            <li>Java</li>
+            <li>Ruby</li>
+            <li>Python</li>
+        </ul>
+
+    <h2>Referências</h2>
+    <ul>
+        <li><a href="https://www.dio.me/" target="_blank">Dio.me</a></li>
+        <li><a href="https://www.w3schools.com/html/" target="_blank">W3Schools</a></li>
+    </ul>
+</body>
+</html>
